@@ -19,3 +19,9 @@ def menu():
     print(" 3 - Para sair")
     opcao = input("Digite a opção")
     return opcao
+
+def cadastro_cliente():
+    nome = input ("Informe o nome:  ")
+    telefone = input ("Informe o telefone:  ")
+    cliente =[nome,telefone]
+    return cliente

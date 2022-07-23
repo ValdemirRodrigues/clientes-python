@@ -18,3 +18,6 @@ def model_senha():
         usuario_senha = linha.split(";")
     senha_BD = usuario_senha[1]
     return senha_BD
+
+def model_cadastro_cliente(cliente)
+    print("cadastrado")
