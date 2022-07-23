@@ -1,6 +1,6 @@
-import controllers.validacao as validacao
+import controllers.controllerAplicacao as controllerAplicacao
 # View - Tela visual - o que vai para o usuário
-def formulari_login():
+def formulario_login():
     usuario_digitado = input("Informe seu usuário: ")
     senha_digitado = input("Informe seu usuário: ")
-    validacao.validar_login(usuario_digitado, senha_digitado)
+    controllerAplicacao.validar_login(usuario_digitado, senha_digitado)

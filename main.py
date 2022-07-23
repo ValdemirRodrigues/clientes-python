@@ -1,3 +1,3 @@
-import controllers.validacao as controller
+import controllers.controllerAplicacao as controllerAplicacao
 
-controller.iniciar()
+controllerAplicacao.iniciar()
