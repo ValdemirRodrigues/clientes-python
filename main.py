@@ -1,2 +1,3 @@
-import formulario
-formulario.formulari_login()
+import controllers.validacao as controller
+
+controller.iniciar()
